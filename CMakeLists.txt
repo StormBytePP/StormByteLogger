@@ -4,12 +4,13 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-project("StormByteConfig"
+project("StormByte Logger"
 	VERSION 1.0.0
-	DESCRIPTION "StormByte Config is a StormByte library for parsing configuration files"
-	HOMEPAGE_URL "https://github.com/StormBytePP/StormByteConfig"
+	DESCRIPTION "StormByte Logger is a StormByte library for do log operations"
+	HOMEPAGE_URL "https://github.com/StormBytePP/StormByte-Logger"
 )
 
+enable_testing()
 add_subdirectory(thirdparty)
 add_subdirectory(doc)
 add_subdirectory(lib)
