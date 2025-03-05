@@ -4,10 +4,10 @@ set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-project("StormByte Logger"
+project("StormByte C++ Library: Logger module"
 	VERSION 1.0.0
-	DESCRIPTION "StormByte Logger is a StormByte library for do log operations"
-	HOMEPAGE_URL "https://github.com/StormBytePP/StormByte-Logger"
+	DESCRIPTION "StormByte-Logger is a StormByte library module for do log operations"
+	HOMEPAGE_URL "https://dev.stormbyte.org/StormByte-Logger"
 )
 
 enable_testing()
